@@ -1,0 +1,17 @@
+<!doctype html>
+<html>
+<title>Collected data</title>
+<body>
+    <h1>Collected data</h1>
+
+    {{ data|safe }}
+
+    <form action="/" method="POST"> 
+        <label for="Humidity">Humidity:</label><br>
+        <input type="text" id="Humidity" name="Humidity"><br>
+        <label for="Temperature">Temperature:</label><br>
+        <input type="text" id="Temperature" name="Temperature"><br>
+        <button type="submit" value="Submit">Submit</button>
+    </form>
+</body>
+</html>
